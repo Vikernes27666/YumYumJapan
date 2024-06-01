@@ -16,7 +16,6 @@ class UserSerializer(serializers.ModelSerializer):
             "email",
             "first_name",
             "last_name",
-            "username", 
         ]
 
     def to_representation(self, instance):
@@ -32,7 +31,6 @@ class CustomRegisterSerializer(RegisterSerializer):
     first_name = serializers.CharField(required=True)
     last_name = serializers.CharField(required=True)
     email = serializers.EmailField(required=True)
-    username = serializers.CharField(required=True) 
     password1 = serializers.CharField(write_only=True)
     password2 = serializers.CharField(write_only=True)
 
@@ -42,7 +40,6 @@ class CustomRegisterSerializer(RegisterSerializer):
             "email": self.validated_data.get("email", ""),
             "first_name": self.validated_data.get("first_name", ""),
             "last_name": self.validated_data.get("last_name", ""),
-            "username": self.validated_data.get("username", ""), 
             "password1": self.validated_data.get("password1", ""),
         }
 
@@ -55,7 +52,6 @@ class CustomRegisterSerializer(RegisterSerializer):
 
         setup_user_email(request, user, [])
         user.email = self.cleaned_data.get("email")
-        user.username = self.cleaned_data.get("username") 
         user.first_name = self.cleaned_data.get("first_name")
         user.last_name = self.cleaned_data.get("last_name")
         user.set_password(self.cleaned_data.get("password1"))  # Set password

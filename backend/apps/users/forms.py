@@ -10,19 +10,12 @@ class UserChangeForm(admin_forms.UserChangeForm):
         model = User
 
 class UserCreationForm(admin_forms.UserCreationForm):
-    username = forms.CharField(
-        max_length=User._meta.get_field("username").max_length,
-        help_text=User._meta.get_field("username").help_text,
-        label=User._meta.get_field("username").verbose_name,
-    )
-
     class Meta(admin_forms.UserCreationForm.Meta):
         model = User
-        fields = ("first_name", "last_name", "email", "username")
+        fields = ("first_name", "last_name", "email")
 
     error_messages = {
         "duplicate_email": "A user with this email already exists.",
-        "duplicate_username": "A user with this username already exists.",
     }
 
     def clean_email(self):
@@ -32,11 +25,3 @@ class UserCreationForm(admin_forms.UserCreationForm):
         except User.DoesNotExist:
             return email
         raise forms.ValidationError(self.error_messages["duplicate_email"])
-
-    def clean_username(self):
-        username = self.cleaned_data["username"]
-        try:
-            User.objects.get(username=username)
-        except User.DoesNotExist:
-            return username
-        raise forms.ValidationError(self.error_messages["duplicate_username"])
