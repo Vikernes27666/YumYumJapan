@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <Layout>
             <div className="text-red-500">
-                Home
+                Home XDDDDDDDDDD
             </div>
         </Layout>
     );
