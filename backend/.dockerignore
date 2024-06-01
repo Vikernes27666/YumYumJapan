@@ -1,0 +1,6 @@
+.idea
+venv
+**/.git
+.gitignore
+.vscode
+db.sqlite3
