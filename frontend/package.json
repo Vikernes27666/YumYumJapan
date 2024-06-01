@@ -4,15 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
     "dev": "vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@craco/craco": "^7.1.0",
     "@headlessui/react": "^2.0.4",
     "@heroicons/react": "^1.0.6",
     "@reduxjs/toolkit": "^2.2.5",
