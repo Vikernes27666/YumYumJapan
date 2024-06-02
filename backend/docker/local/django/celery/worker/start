@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+
+# TODO: Change this to the name of your Django project.
+exec watchfiles celery.__main__.main --args '-A core.celery worker -l INFO'

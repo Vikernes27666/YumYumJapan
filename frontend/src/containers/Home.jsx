@@ -7,6 +7,8 @@ const Home = () => {
         <Layout>
             <div>
                 <SwiperSlideComponent />
+            <div className="text-red-500">
+                Home
             </div>
         </Layout>
     );

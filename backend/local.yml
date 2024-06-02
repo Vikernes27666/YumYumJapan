@@ -1,0 +1,116 @@
+version: "3.9"
+
+services:
+
+    django:
+        build:
+            context: .
+            dockerfile: ./docker/local/django/Dockerfile
+        volumes:
+            - .:/app:z
+            - static_volume:/app/staticfiles
+            - media_volume:/app/mediafiles
+        expose:
+            - "8000"
+        env_file:
+            - ./.envs/.local/.django
+            - ./.envs/.local/.postgres
+        depends_on:
+            - postgres
+            - mailhog
+            - redis
+        command: /start
+        networks:
+            - core-api
+
+    postgres:
+        build:
+            context: .
+            dockerfile: ./docker/local/postgres/Dockerfile
+        volumes:
+            - local_postgres_data:/var/lib/postgresql/data
+            - local_postgres_data_backups:/backups
+        env_file:
+            - ./.envs/.local/.postgres
+        networks:
+            - core-api
+
+    nginx:
+        restart: always
+        build:
+            context: ./docker/local/nginx/
+            dockerfile: Dockerfile
+        volumes:
+            - static_volume:/app/staticfiles
+            - media_volume:/app/mediafiles
+        ports:
+            - "8080:80"
+        depends_on:
+            - django
+        env_file:
+            - ./.envs/.local/.django  
+        networks:
+            - core-api
+
+    mailhog:
+        image: mailhog/mailhog:v1.0.0
+        container_name: mailhog
+        ports:
+            - "8025:8025"
+        volumes:
+            - mailhog_data:/data
+        networks:
+            - core-api
+    
+    redis:
+        image: redis:7-alpine
+        networks:
+            - core-api
+
+    celery:
+        build:
+            context: .
+            dockerfile: ./docker/local/django/Dockerfile
+        command: /start-celeryworker
+        volumes:
+            - .:/app
+        env_file:
+            - ./.envs/.local/.django
+            - ./.envs/.local/.postgres
+        depends_on:
+            - redis
+            - postgres
+            - mailhog
+        networks:
+            - core-api
+    
+    flower:
+        build:
+            context: .
+            dockerfile: ./docker/local/django/Dockerfile
+        command: /start-flower
+        volumes:
+            - flower_data:/flower
+        env_file:
+            - ./.envs/.local/.django
+            - ./.envs/.local/.postgres
+        ports:
+            - "5555:5555"
+        depends_on:
+            - redis
+            - postgres
+        networks:
+            - core-api
+
+# TODO: Change "Core"
+networks:
+    core-api:
+        driver: bridge
+
+volumes:
+    static_volume:
+    media_volume:
+    local_postgres_data: {}
+    local_postgres_data_backups: {}
+    flower_data: {}
+    mailhog_data: {}
