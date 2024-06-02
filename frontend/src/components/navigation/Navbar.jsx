@@ -181,7 +181,5 @@ export function Navbar() {
     </Popover>
   );
 }
+  <Popover/>
 
-    </Popover>
-  )
-}
