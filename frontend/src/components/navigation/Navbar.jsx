@@ -5,23 +5,12 @@ import { FaSearch } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { Popover, Transition } from '@headlessui/react'
 import {
-  BookmarkAltIcon,
-  BriefcaseIcon,
-  ChartBarIcon,
-  CheckCircleIcon,
-  CursorClickIcon,
-  DesktopComputerIcon,
-  GlobeAltIcon,
-  InformationCircleIcon,
   MenuIcon,
-  NewspaperIcon,
-  OfficeBuildingIcon,
-  PhoneIcon,
-  PlayIcon,
-  ShieldCheckIcon,
-  UserGroupIcon,
-  ViewGridIcon,
-  XIcon,
+  XIcon
+  
+} from "@heroicons/react/outline";
+
+
 } from '@heroicons/react/outline'
 
 import { ChevronDownIcon } from '@heroicons/react/solid'
@@ -31,6 +20,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+
 export function Navbar() {
   return (
     <Popover className="relative bg-white">
@@ -38,6 +28,19 @@ export function Navbar() {
 <div className="absolute inset-0 shadow z-30 pointer-events-none" aria-hidden="true"></div>
      
       <div className="relative z-20">
+
+        <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
+          <div>
+            <a href="#" className="flex">
+              <span className="sr-only">Workflow</span>
+              <img
+                className="h-10 w-auto sm:h-12"
+                src="https://res.cloudinary.com/duwahxygm/image/upload/v1717236586/logo-yum_hrjapn.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+
       <div className="w-full max-w-[1440px] mx-auto h-[120px] flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
           <div className="relative z-20">
             <div className="max-w-[1440px] mx-auto h-[120px] flex justify-between items-center">
@@ -96,6 +99,36 @@ export function Navbar() {
 <div className="flex items-center justify-center w-10 h-10" style={{ backgroundColor: '#54ACB6', borderRadius: '50%' }}>
 <FaShoppingCart />
 
+
+            <div className="flex items-center font-semibold	">
+              <a href="#" className="text-[#DB1A40] font-bold	">
+                Iniciar sesión
+              </a>
+              <span className="mx-3 text-[#DB1A40]">|</span>
+              <a href="#" className="text-[#DB1A40] font-bold">
+                Registrarse
+              </a>
+              <a
+                href="#"
+                className="ml-5 text-gray-500 hover:text-gray-900 bg-[#43949D] rounded-[50px] p-2"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 21 21"
+                  fill="none"
+                  className="w-4 h-4 "
+                >
+                  <path
+                    d="M6.46582 20.1624C5.91582 20.1624 5.44499 19.9665 5.05332 19.5749C4.66165 19.1832 4.46582 18.7124 4.46582 18.1624C4.46582 17.6124 4.66165 17.1415 5.05332 16.7499C5.44499 16.3582 5.91582 16.1624 6.46582 16.1624C7.01582 16.1624 7.48665 16.3582 7.87832 16.7499C8.26999 17.1415 8.46582 17.6124 8.46582 18.1624C8.46582 18.7124 8.26999 19.1832 7.87832 19.5749C7.48665 19.9665 7.01582 20.1624 6.46582 20.1624ZM16.4658 20.1624C15.9158 20.1624 15.445 19.9665 15.0533 19.5749C14.6617 19.1832 14.4658 18.7124 14.4658 18.1624C14.4658 17.6124 14.6617 17.1415 15.0533 16.7499C15.445 16.3582 15.9158 16.1624 16.4658 16.1624C17.0158 16.1624 17.4867 16.3582 17.8783 16.7499C18.27 17.1415 18.4658 17.6124 18.4658 18.1624C18.4658 18.7124 18.27 19.1832 17.8783 19.5749C17.4867 19.9665 17.0158 20.1624 16.4658 20.1624ZM5.61582 4.16235L8.01582 9.16235H15.0158L17.7658 4.16235H5.61582ZM4.66582 2.16235H19.4158C19.7992 2.16235 20.0908 2.33319 20.2908 2.67485C20.4908 3.01652 20.4992 3.36235 20.3158 3.71235L16.7658 10.1124C16.5825 10.4457 16.3367 10.704 16.0283 10.8874C15.72 11.0707 15.3825 11.1624 15.0158 11.1624H7.56582L6.46582 13.1624H18.4658V15.1624H6.46582C5.71582 15.1624 5.14915 14.8332 4.76582 14.1749C4.38249 13.5165 4.36582 12.8624 4.71582 12.2124L6.06582 9.76235L2.46582 2.16235H0.46582V0.162354H3.71582L4.66582 2.16235Z"
+                    fill="white"
+                    
+                  />
+                </svg>
+              </a>
+            </div>
+           
+          </div>
+
   </div>
 </a>
 
@@ -121,6 +154,39 @@ export function Navbar() {
     <span className=" ">|</span>
     <a href="#" className="">COMBOS BOX</a>
   </div>
+
+        </div>
+        <div className="w-[100%] bg-[#DB1A40]">
+        <div className="flex items-center font-semibold justify-center	">
+              <a href="#" className="text-[#ffffff] font-semibold p-2">
+              SNACKS
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-semibold p-2	">
+              COMIDA INSTANTÁNEA
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-semibold	p-2">
+              GOLOSINAS
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-semibold	p-2">
+              CHOCOLATES
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-semibold	p-2">
+              GALLETAS
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-bold	">
+              BEBIDAS
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-bold	">
+              COMBOS BOX
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+        </div>
         </div>
       </div>
 
