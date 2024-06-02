@@ -7,8 +7,6 @@ import {
 } from "@heroicons/react/outline";
 
 
-
-
 export function Navbar() {
   return (
     <Popover className="relative bg-white">
