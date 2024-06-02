@@ -7,12 +7,9 @@ const Home = () => {
         <Layout>
             <div>
                 <SwiperSlideComponent />
-            <div className="text-red-500">
-                Home
-            </div>
             </div>
         </Layout>
     );
     }
 
-export default Home
+export default Home;
