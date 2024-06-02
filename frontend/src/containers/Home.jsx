@@ -1,10 +1,12 @@
 import Layout from "../hocs/Layout";
+import SwiperSlideComponent from '../components/SwiperSlide';
+
 
 const Home = () => {
     return (
         <Layout>
-            <div className="text-red-500">
-                Home XDDDDDDDDDD
+            <div>
+                <SwiperSlideComponent />
             </div>
         </Layout>
     );

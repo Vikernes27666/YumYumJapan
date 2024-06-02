@@ -104,7 +104,7 @@ export function Navbar() {
             <a href="#" className="flex">
               <span className="sr-only">Workflow</span>
               <img
-                className="h-8 w-auto sm:h-10"
+                className="h-10 w-auto sm:h-12"
                 src="https://res.cloudinary.com/duwahxygm/image/upload/v1717236586/logo-yum_hrjapn.png"
                 alt="logo"
               />
@@ -175,7 +175,40 @@ export function Navbar() {
                 </svg>
               </a>
             </div>
+           
           </div>
+        </div>
+        <div className="w-[100%] bg-[#DB1A40]">
+        <div className="flex items-center font-semibold justify-center	">
+              <a href="#" className="text-[#ffffff] font-semibold p-2">
+              SNACKS
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-semibold p-2	">
+              COMIDA INSTANTÁNEA
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-semibold	p-2">
+              GOLOSINAS
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-semibold	p-2">
+              CHOCOLATES
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-semibold	p-2">
+              GALLETAS
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-bold	">
+              BEBIDAS
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+              <a href="#" className="text-[#ffffff] font-bold	">
+              COMBOS BOX
+              </a>
+              <span className="mx-3 text-[#ffffff]">|</span>
+        </div>
         </div>
       </div>
 
