@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -10,7 +11,7 @@ const Layout = (props) => {
             <Navbar />
             <ToastContainer autoClose={5000} />
             {props.children}
-            <Footer />
+            <Footer /> 
         </div>
     )
 }
