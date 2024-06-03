@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fuente Variable Montserrat */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100 900;
+    src: local('Montserrat Variable'), 
+         url('../assets/font/Montserrat-VariableFont_wght.ttf') format('truetype');
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }

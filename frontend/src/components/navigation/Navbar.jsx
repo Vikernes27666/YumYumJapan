@@ -3,7 +3,6 @@ import { Popover, Transition } from "@headlessui/react";
 import {
   MenuIcon,
   XIcon
-
 } from "@heroicons/react/outline";
 
 
@@ -35,7 +34,7 @@ export function Navbar() {
           </div>
 
           <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
-            <div className="relative w-[75%]">
+            <div className="relative w-[73%]">
               {" "}
               {/* Cambia la clase de ancho aquí */}
               <input
@@ -66,11 +65,11 @@ export function Navbar() {
             </div>
 
             <div className="flex items-center font-semibold	">
-              <a href="#" className="text-[#DB1A40] font-bold	">
+              <a href="#" className="text-[#DB1A40] font-semibold">
                 Iniciar sesión
               </a>
               <span className="mx-3 text-[#DB1A40]">|</span>
-              <a href="#" className="text-[#DB1A40] font-bold">
+              <a href="#" className="text-[#DB1A40] font-semibold">
                 Registrarse
               </a>
               <a
@@ -181,5 +180,5 @@ export function Navbar() {
     </Popover>
   );
 }
-  <Popover/>
 
+  <Popover/>
