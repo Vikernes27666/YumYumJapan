@@ -39,6 +39,9 @@ urlpatterns = [
         PasswordResetConfirmView.as_view(),
         name="password_reset_confirm",
     ),
+
+    # Product
+    path("api/v1/products/", include("apps.products.urls")),
 ]
 
 # urlpatterns += [re_path(r'^.*', TemplateView.as_view(template_name='index.html'))]
