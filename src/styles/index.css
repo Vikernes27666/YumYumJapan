@@ -15,10 +15,3 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
-* {
-  box-sizing: border-box;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
