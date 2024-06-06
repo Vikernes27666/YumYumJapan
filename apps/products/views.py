@@ -8,7 +8,7 @@ from apps.products.models import Product
 
 class AllProducts(generics.ListAPIView):
     serializer_class = ProductSerializer
-    queryset = Product.objects.all()
+    queryset = Product.objects.active()
     pagination_class = ProductPagination
     renderer_classes = [ProductsJSONRenderer]
 

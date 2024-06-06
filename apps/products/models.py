@@ -5,6 +5,10 @@ from django.contrib.auth import get_user_model
 
 User = get_user_model()
 
+class ProductManager(models.Manager):
+    def active(self):
+        return self.filter(is_active=True)
+
 class Product(TimeStampedModel):
     title = models.CharField(max_length=200, null=True, blank=True)
     description = models.TextField(null=True, blank=True)
@@ -18,6 +22,9 @@ class Product(TimeStampedModel):
     # brand = models.CharField(max_length=200, null=True, blank=True)
     # category = models.CharField(max_length=100, null=True, blank=True)
     # subCategory = models.CharField(max_length=100, null=True, blank=True)
+
+    objects = ProductManager()
+
     def __str__(self):
         return self.title
     
