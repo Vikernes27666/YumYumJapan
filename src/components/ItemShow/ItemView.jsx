@@ -20,14 +20,14 @@ const ItemView = () => {
         <div className="space-y-3">
           <div className="flex justify-between w-full gap-10">
             <div className="flex ">
-              <div className="w-[30px] h-[30px] bg-neutral-400 text-center">
+              <div className="w-[30px] h-[30px] bg-neutral-400 flex justify-center items-center">
                 -
               </div>
               <input
                 className="w-[60px] h-[30px] p-2 text-center no-arrows"
                 type="number"
               />
-              <div className="w-[30px] h-[30px] bg-neutral-400 text-center">
+              <div className="w-[30px] h-[30px] bg-neutral-400 flex justify-center items-center">
                 +
               </div>
             </div>
