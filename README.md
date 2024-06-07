@@ -182,7 +182,8 @@ calidad y seguridad de las transacciones._
 1. Navegar al directorio del frontend:
 
    ```sh
-   cd frontend
+   cd YumYumJapan
+
    ```
 
 2. Instalar las dependencias de Node.js:
