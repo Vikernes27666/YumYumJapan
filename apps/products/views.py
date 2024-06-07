@@ -1,5 +1,5 @@
 from apps.products.pagination import ProductPagination
-from apps.products.renderers import ProductsJSONRenderer
+from apps.products.renderers import ProductsJSONRenderer, ProductJSONRenderer
 from rest_framework import generics
 from .serializers import ProductSerializer
 from apps.products.models import Product
@@ -16,3 +16,12 @@ class AllProducts(generics.ListAPIView):
         "created_at",
         "updated_at",
     ]
+
+class ProductDetail(generics.RetrieveUpdateDestroyAPIView):
+    serializer_class = ProductSerializer
+    queryset = Product.objects.all() 
+    lookup_field = 'id'
+    # renderer_classes = [ProductJSONRenderer]
+
+    def get_queryset(self):
+        return Product.objects.active()
