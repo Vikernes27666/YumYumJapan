@@ -20,11 +20,13 @@ export function Navbar() {
           <div>
             <a href="#" className="flex">
               <span className="sr-only">Workflow</span>
+              <Link to="/#">
               <img
                 className="h-10 w-auto sm:h-12"
                 src="https://res.cloudinary.com/duwahxygm/image/upload/v1717236586/logo-yum_hrjapn.png"
                 alt="logo"
               />
+              </Link>
             </a>
           </div>
 
