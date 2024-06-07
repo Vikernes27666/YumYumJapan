@@ -37,6 +37,8 @@ DJANGO_APPS = [
 
 LOCAL_APPS = [
     "apps.users",
+    "apps.common",
+    "apps.products",
 ]
 
 THIRD_PARTY_APPS = [
@@ -149,7 +151,8 @@ REST_FRAMEWORK = {
         "dj_rest_auth.jwt_auth.JWTCookieAuthentication",
     ],
     "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.IsAuthenticated",
+        # "rest_framework.permissions.IsAuthenticated",
+        "rest_framework.permissions.AllowAny",
     ],
     "DEFAULT_FILTER_BACKENDS": [
         "django_filters.rest_framework.DjangoFilterBackend",

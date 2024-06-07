@@ -56,13 +56,13 @@ export function Navbar() {
             </div>
 
             <div className="flex items-center font-semibold	">
-              <a href="#" className="text-[#DB1A40] font-semibold">
+              <Link to="/Login" className="text-[#DB1A40] font-semibold">
                 Iniciar sesión
-              </a>
+              </Link>
               <span className="mx-3 text-[#DB1A40]">|</span>
-              <a href="#" className="text-[#DB1A40] font-semibold">
+              <Link to="/Signup" className="text-[#DB1A40] font-semibold">
                 Registrarse
-              </a>
+              </Link>
               <a
                 href="#"
                 className="ml-5 text-gray-500 hover:text-gray-900 bg-[#43949D] rounded-[50px] p-2"
