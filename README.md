@@ -139,6 +139,64 @@ calidad y seguridad de las transacciones._
 | <a href="https://github.com/leandro130795"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> |
 | <a href="http://www.linkedin.com/in/josé-leandro-hernández-góngora-860b371ba"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.linkedin.com/in/cristian-ibarra-a433842a4/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
 
+<hr/>
+
+## Cómo ejecutar el proyecto
+
+### Backend (Django)
+
+1. Clonar el repositorio:
+
+   ```sh
+   git clone https://github.com/Vikernes27666/YumYumJapan.git
+   ```
+
+2. Navegar al directorio del proyecto:
+
+   ```sh
+   cd YumYumJapan
+   ```
+
+3. Crear y activar un entorno virtual: (recomendado)
+
+   ```sh
+   python -m venv env
+   source env/bin/activate  # En Windows usa `env\Scripts\activate`
+   ```
+
+4. Instalar las dependencias de Python:
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+5. Realizar las migraciones y correr el servidor de desarrollo:
+
+   ```sh
+   python manage.py migrate
+   python manage.py runserver
+   ```
+
+### Frontend (React)
+
+1. Navegar al directorio del frontend:
+
+   ```sh
+   cd frontend
+   ```
+
+2. Instalar las dependencias de Node.js:
+
+   ```sh
+   npm install
+   ```
+
+3. Correr el servidor de desarrollo:
+
+   ```sh
+   npm run dev
+   ```
+
 
 ## Equipo ( c18-50-n-python-react )
 
