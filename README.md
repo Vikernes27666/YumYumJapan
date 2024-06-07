@@ -143,7 +143,7 @@ calidad y seguridad de las transacciones._
 
 ## Cómo ejecutar el proyecto
 
-### Backend (Django)
+### Backend (Django) 🐍
 
 1. Clonar el repositorio:
 
@@ -177,7 +177,7 @@ calidad y seguridad de las transacciones._
    python manage.py runserver
    ```
 
-### Frontend (React)
+### Frontend (React)⚛️
 
 1. Navegar al directorio del frontend:
 
