@@ -6,6 +6,7 @@ import Home from './containers/Home'
 import ItemShow from './containers/ItemShow'
 import Error404 from './containers/errors/Error404'
 import Login from './containers/auth/Login'
+import Signup from './containers/auth/Signup'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/item/:id" element={<ItemShow />} />
           <Route path="/login" element={<Login />} />
+          <Route path= "/signup" element = {<Signup />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
       </Router>

@@ -1,6 +1,9 @@
 import Layout from "../../hocs/Layout";
 import React, { useState } from 'react';
 import { EyeIcon, EyeOffIcon } from '@heroicons/react/outline'; // Importa los iconos de ojo
+import { Link } from 'react-router-dom';
+import ImgLogin from "../../assets/ImgLogin.png";
+
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -54,12 +57,13 @@ const Login = () => {
               </div>
               <button type="submit" className="w-full py-3 px-6 border border-transparent rounded-md shadow-sm text-white bg-cyan-600 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Iniciar Sesión</button> {/* Aumentamos el padding y el tamaño del texto */}
             </form>
+            
             <div className="mt-6 text-lg">
-              ¿No tienes cuenta? <a href="#" className="text-black underline">Crea tu cuenta ahora</a>.
+              ¿No tienes cuenta? <Link to="/Signup" className="text-black underline">Crea tu cuenta ahora</Link>.
             </div>
           </div>
-          <div>
-            <img src="ruta/a/tu/imagen.jpg" alt="Imagen" className="max-h-96 ml-8" /> {/* Agregamos un margen izquierdo */}
+          <div className="max-h-full">
+            <img src={ImgLogin} alt="Imagen" className="max-h-full" /> {/* Agregamos un margen izquierdo */}
           </div>
         </div>
       </div>
