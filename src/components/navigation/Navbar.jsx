@@ -94,33 +94,33 @@ export function Navbar() {
         </div>
         <div className="w-full bg-[#DB1A40] overflow-x-auto hidden md:block">
   <div className="flex items-center font-semibold justify-center whitespace-nowrap">
-    <a href="#" className="text-[#ffffff] font-semibold p-2">
+    <Link to="/Snacks" className="text-[#ffffff] font-semibold p-2">
       SNACKS
-    </a>
+    </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
-    <a href="#" className="text-[#ffffff] font-semibold p-2">
+    <Link to="/ComidaInstantanea" className="text-[#ffffff] font-semibold p-2">
       COMIDA INSTANTÁNEA
-    </a>
+    </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
-    <a href="#" className="text-[#ffffff] font-semibold p-2">
+    <Link to="/Golosinas" className="text-[#ffffff] font-semibold p-2">
       GOLOSINAS
-    </a>
+    </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
-    <a href="#" className="text-[#ffffff] font-semibold p-2">
+    <Link to="/Chocolates" className="text-[#ffffff] font-semibold p-2">
       CHOCOLATES
-    </a>
+    </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
-    <a href="#" className="text-[#ffffff] font-semibold p-2">
+    <Link to="/Galletas" className="text-[#ffffff] font-semibold p-2">
       GALLETAS
-    </a>
+    </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
-    <a href="#" className="text-[#ffffff] font-bold p-2">
+    <Link to="/Bebidas" className="text-[#ffffff] font-bold p-2">
       BEBIDAS
-    </a>
+    </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
-    <a href="#" className="text-[#ffffff] font-bold p-2">
+    <Link to="CombosBox" className="text-[#ffffff] font-bold p-2">
       COMBOS BOX
-    </a>
+    </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
   </div>
 </div>
