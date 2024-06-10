@@ -1,0 +1,11 @@
+.envs/
+apps/
+core/
+dist/
+env/
+mediafiles/
+__pycache__/
+*.pyc
+db.sqlite3
+manage.py
+requirements.txt
