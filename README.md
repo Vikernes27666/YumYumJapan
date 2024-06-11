@@ -130,7 +130,7 @@ calidad y seguridad de las transacciones._
 - Reporte de defectos.
 - Utilizamos pruebas de caja negra
 - exploratory test
--smoke test
+- smoke test
 
 ### 👉🏻 Desarrollado con 🛠️
 
