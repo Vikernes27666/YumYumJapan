@@ -5,8 +5,11 @@
 
 <div align="center">
   <h3>¡Bienvenidos a YUM YUM JAPAN, tu paraíso de golosinas japonesas!
+    
 Somos una tienda online de venta de golosinas y comida instantánea de origen japonés en Latinoamérica.
+
 ¿Prefieres comprar desde casa? Visita nuestra tienda online y recibe tus golosinas favoritas directamente en tu puerta, ¡rápido y seguro!
+
 ¡Te esperamos!</h3>
 </div>
 
