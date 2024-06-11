@@ -124,19 +124,21 @@ calidad y seguridad de las transacciones._
 ### 👉🏻 Task List ✅
 
 - Realizamos diseños de casos de prueba en Figma.
+- listas de compobacion.
+- pruebas de UI
 - Documentamos los casos de prueba en Trello y Excel.
 - Reporte de defectos.
-- Utilizamos pruebas de funcionalidad, pruebas de compatibilidad.
-
+- Utilizamos pruebas de caja negra
+- exploratory test
+-smoke test
 
 ### 👉🏻 Desarrollado con 🛠️
 
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=Javascript&logoColor=%23F7DF1E) 
-### 👉🏻 Developers
+![Trello](https://img.shields.io/badge/trello-%23323330.svg?style=for-the-badge&logo=trello&logoColor=%23F7DF1E) 
 
 | <img src="https://media.licdn.com/dms/image/D5603AQHHaGtk99jLDg/profile-displayphoto-shrink_400_400/0/1715359339512?e=1723075200&v=beta&t=0fikBD7tF2YofAH47DAExj9-IhWnnycgtavMnOxgYVE" width=90> | <img src="https://media.licdn.com/dms/image/D4D35AQGcqsX7NdgDrw/profile-framedphoto-shrink_800_800/0/1717415588448?e=1718316000&v=beta&t=it9rYuV2xZo7M2x7Yt3-OPUm6Zarr3HTM3ayCx_YPGc" width=90> |
 |:-:|:-:|
-| **José Hernández** | **Cristian Ibarra** | 
+| **Leandro Hernández** | **Cristian Ibarra** | 
 | <a href="https://github.com/leandro130795"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> |
 | <a href="http://www.linkedin.com/in/josé-leandro-hernández-góngora-860b371ba"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.linkedin.com/in/cristian-ibarra-a433842a4/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
 
