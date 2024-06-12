@@ -1,14 +1,18 @@
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart'
+import Card from '../../assets/Card.png'
 
 const ItemLeading = () => {
   return (
     <div className="w-[23%] border border-red-600 rounded-md h-[350px] ">
       <div
         className="h-1/2 w-full bg-red-200 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('https://cubiro.com/wp-content/uploads/2016/09/daifuku-mochi.jpg')`
-        }}
-      ></div>
+        
+      >
+        <img
+        src={Card}
+        alt='card'
+        />
+      </div>
       <div className="flex flex-col justify-around h-1/2 items-center">
         <div>
           <p className="font-medium text-center">

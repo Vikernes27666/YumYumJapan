@@ -1,3 +1,4 @@
+
 import ItemLeading from './ItemLeading'
 import Items from '../../data/db'
 
@@ -17,4 +18,4 @@ const Leading = () => {
   )
 }
 
-export default Leading
+export default Leading;
