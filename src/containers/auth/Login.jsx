@@ -1,6 +1,6 @@
 import Layout from "../../hocs/Layout";
 import React, { useState } from 'react';
-import { EyeIcon, EyeOffIcon } from '@heroicons/react/outline'; // Importa los iconos de ojo
+import { EyeIcon, EyeOffIcon } from '@heroicons/react/outline'; 
 import { Link } from 'react-router-dom';
 import ImgLogin from "../../assets/ImgLogin.png";
 
@@ -12,7 +12,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes agregar la lógica para enviar los datos del formulario al servidor
+    
     console.log('Email:', email);
     console.log('Password:', password);
   };
@@ -21,7 +21,7 @@ const Login = () => {
     <Layout>
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center px-8 py-10 sm:px-10 sm:py-8 lg:px-12 md:justify-start md:space-x-14"> {/* Ajustamos el padding */}
-          <div className="w-96"> {/* Aumentamos el ancho */}
+          <div className="w-96"> 
             <h2 className="text-3xl font-bold mb-6">
               <span className="text-black border-b-2 border-red-500">INICIAR SESIÓN</span>
             </h2>
@@ -63,7 +63,7 @@ const Login = () => {
             </div>
           </div>
           <div className="max-h-full">
-            <img src={ImgLogin} alt="Imagen" className="max-h-full" /> {/* Agregamos un margen izquierdo */}
+            <img src={ImgLogin} alt="Imagen" className="max-h-full" /> 
           </div>
         </div>
       </div>
