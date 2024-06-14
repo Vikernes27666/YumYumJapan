@@ -150,7 +150,7 @@ calidad y seguridad de las transacciones._
 | <a href="https://github.com/leandro130795"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> |
 | <a href="http://www.linkedin.com/in/josé-leandro-hernández-góngora-860b371ba"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.linkedin.com/in/cristian-ibarra-a433842a4/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
 
-### <a href="https://docs.google.com/document/d/1HN20bL8TQc_44CyEFOXQNtqyNwD-nV3piTLecmKRxg4/edit?usp=sharing"><img height="18px" src="https://img.icons8.com/fluency/48/microsoft-excel-2019.png"/> TRABAJO QA - 1</a>
+### <a href="https://docs.google.com/document/d/1HN20bL8TQc_44CyEFOXQNtqyNwD-nV3piTLecmKRxg4/edit?usp=sharing"><img height="18px" src="https://img.icons8.com/color/48/microsoft-word-2019--v2.png"/> TRABAJO QA - 1</a>
 ### <a href="https://docs.google.com/spreadsheets/d/1P06CVgk9jQR9RvIsKsCDcR7GDd7JAf86ZM3LbNAkNUg/edit?gid=1695711882#gid=1695711882"><img height="18px" src="https://img.icons8.com/fluency/48/microsoft-excel-2019.png"/> TRABAJO QA - 2</a>
 <hr/>
 
