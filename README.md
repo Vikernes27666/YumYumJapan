@@ -82,6 +82,7 @@ calidad y seguridad de las transacciones._
 - Uso de Swiper JS para carruseles.
 - Uso de la API de Google Oauth como alternativa de inicio de sesión.
 - Desarrollo del redme del proyecto
+  
 
 
 ### 👉🏻 Desarrollado con 🛠️
