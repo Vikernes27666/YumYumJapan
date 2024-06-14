@@ -9,6 +9,7 @@ const Home = () => {
       <div>
         <SwiperSlideComponent />
       </div>
+    
       <Leading />
       <Newsletter />
     </Layout>
