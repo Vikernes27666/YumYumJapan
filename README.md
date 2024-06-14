@@ -61,7 +61,7 @@ calidad y seguridad de las transacciones._
 
 ### 👉🏻 Developers
 
-| <img src="https://media.licdn.com/dms/image/D4E03AQGkfkdjTo337A/profile-displayphoto-shrink_200_200/0/1705889251357?e=1723075200&v=beta&t=BA1TLdkw6O-0XQcGFkIwsB0f2yJv9RezZSe4fbV5o7U" width=90> | <img src="https://media.licdn.com/dms/image/D4D35AQFhmAtHBEqkwQ/profile-framedphoto-shrink_200_200/0/1645732758203?e=1718326800&v=beta&t=Ln-nFNf7sLDD2WJOTSmvj2LRAie-EahUrrHM9xamO8M" width=90> | <img src="" width=90> |
+| <img src="https://media.licdn.com/dms/image/D4E03AQGkfkdjTo337A/profile-displayphoto-shrink_200_200/0/1705889251357?e=1723075200&v=beta&t=BA1TLdkw6O-0XQcGFkIwsB0f2yJv9RezZSe4fbV5o7U" width=90> | <img src="https://media.licdn.com/dms/image/D4D35AQFhmAtHBEqkwQ/profile-framedphoto-shrink_200_200/0/1645732758203?e=1718938800&v=beta&t=DQZITQQTEcwDFXR6BSwXDb8cdwZQYVaNdNZuEGd3N0E" width=90> | <img src="" width=90> |
 |:-:|:-:|:-:|
 | **Aroon Miranda** | **Esteban Hirzfeld** | **-------** |
 | <a href="https://github.com/Vikernes27666"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href="https://github.com/estebanhirzfeld"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> |
@@ -121,7 +121,7 @@ calidad y seguridad de las transacciones._
 |<a href="https://www.linkedin.com/in/yaninalucero/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
 
 
-### <a href=""><img height="18px" src="https://img.icons8.com/color/344/figma--v1.png"/> TRABAJO UX/UI</a>
+### <a href="https://www.figma.com/design/UXkpJfnbQvSZPZnoUmiMyE/No-Country---YUM-YUM-JAPAN?node-id=92-2&t=TXVgbMkfTXhoWySU-1"><img height="18px" src="https://img.icons8.com/color/344/figma--v1.png"/> TRABAJO UX/UI</a>
 
 <hr/>
 
@@ -142,7 +142,7 @@ calidad y seguridad de las transacciones._
 
 ![Trello](https://img.shields.io/badge/trello-%23323330.svg?style=for-the-badge&logo=trello&logoColor=%23F7DF1E) 
 
-| <img src="https://media.licdn.com/dms/image/D5603AQHHaGtk99jLDg/profile-displayphoto-shrink_400_400/0/1715359339512?e=1723075200&v=beta&t=0fikBD7tF2YofAH47DAExj9-IhWnnycgtavMnOxgYVE" width=90> | <img src="https://media.licdn.com/dms/image/D4D35AQGcqsX7NdgDrw/profile-framedphoto-shrink_800_800/0/1717415588448?e=1718316000&v=beta&t=it9rYuV2xZo7M2x7Yt3-OPUm6Zarr3HTM3ayCx_YPGc" width=90> |
+| <img src="https://media.licdn.com/dms/image/D5603AQHHaGtk99jLDg/profile-displayphoto-shrink_400_400/0/1715359339512?e=1723075200&v=beta&t=0fikBD7tF2YofAH47DAExj9-IhWnnycgtavMnOxgYVE" width=90> | <img src="https://media.licdn.com/dms/image/D4D35AQGcqsX7NdgDrw/profile-framedphoto-shrink_200_200/0/1717415588448?e=1718938800&v=beta&t=kt_05DIYsSPsG4_OrDNJui31iO0Lv7D4J0XQLFHgIOc" width=90> |
 |:-:|:-:|
 | **Leandro Hernández** | **Cristian Ibarra** | 
 | <a href="https://github.com/leandro130795"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> |
