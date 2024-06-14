@@ -118,7 +118,7 @@ export function Navbar() {
       BEBIDAS
     </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
-    <Link to="CombosBox" className="text-[#ffffff] font-bold p-2">
+    <Link to="/CombosBox" className="text-[#ffffff] font-bold p-2">
       COMBOS BOX
     </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
