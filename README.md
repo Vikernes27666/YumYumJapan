@@ -81,6 +81,7 @@ calidad y seguridad de las transacciones._
 - Creación de rutas enlazadas de la página usando React Router.
 - Uso de Swiper JS para carruseles.
 - Uso de la API de Google Oauth como alternativa de inicio de sesión.
+- Desarrollo del redme del proyecto
 
 
 ### 👉🏻 Desarrollado con 🛠️
