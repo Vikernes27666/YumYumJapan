@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://res.cloudinary.com/duwahxygm/image/upload/v1717402904/logo-yum-yum_cy2lq2.png" alt="Logo Yum" width="420" height="182">
+  <img src="https://i.imgur.com/Uk8QCAb.png " alt="Logo Yum" width="420" height="182">
 </p>
 
 
@@ -100,14 +100,14 @@ calidad y seguridad de las transacciones._
 ## ✔ UI/UX
 
 ### 👉🏻 Task List ✅
-
 - Definición de MVP y User Stories.
-- Benchmarking de competencia.
+- Benchmarking: Análisis de competencia.
 - Encuesta para recopilar insights.
 - Card sorting y arquitectura de información.
-- Desarrollo de wireframes en baja y alta.
-- UI Kit y sistema de diseño.
-- Prototipo interactivo.
+- Desarrollo de Branding inicial.
+- Desarrollo de wireframes en baja/media y alta.
+- Sistema de diseño.
+- Prototipo interactivo para web.
 
 
 ### 👉🏻 Diseñado con: 🛠️
@@ -148,6 +148,8 @@ calidad y seguridad de las transacciones._
 | <a href="https://github.com/leandro130795"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> |
 | <a href="http://www.linkedin.com/in/josé-leandro-hernández-góngora-860b371ba"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.linkedin.com/in/cristian-ibarra-a433842a4/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
 
+### <a href="https://docs.google.com/document/d/1HN20bL8TQc_44CyEFOXQNtqyNwD-nV3piTLecmKRxg4/edit?usp=sharing"><img height="18px" src="https://img.icons8.com/fluency/48/microsoft-excel-2019.png"/> TRABAJO QA - 1</a>
+### <a href="https://docs.google.com/spreadsheets/d/1P06CVgk9jQR9RvIsKsCDcR7GDd7JAf86ZM3LbNAkNUg/edit?gid=1695711882#gid=1695711882"><img height="18px" src="https://img.icons8.com/fluency/48/microsoft-excel-2019.png"/> TRABAJO QA - 2</a>
 <hr/>
 
 ## Cómo ejecutar el proyecto
