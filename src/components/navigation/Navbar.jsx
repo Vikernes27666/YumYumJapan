@@ -5,6 +5,7 @@ import {
   XIcon
 } from "@heroicons/react/outline";
 import { Link } from 'react-router-dom';
+import Icon from '../../assets/Navbar-Logo.png'
 
 
 
@@ -23,7 +24,7 @@ export function Navbar() {
               <Link to="/#">
               <img
                 className="h-10 w-auto sm:h-12"
-                src="https://res.cloudinary.com/duwahxygm/image/upload/v1717236586/logo-yum_hrjapn.png"
+                src={Icon}
                 alt="logo"
               />
               </Link>
