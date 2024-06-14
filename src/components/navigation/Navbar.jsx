@@ -115,11 +115,11 @@ export function Navbar() {
     </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
     <Link to="/Bebidas" className="text-[#ffffff] font-bold p-2">
-      BEBIDAS
+      BEBIDAS  
     </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
     <Link to="/CombosBox" className="text-[#ffffff] font-bold p-2">
-      COMBOS BOX
+      COMBOS BOX 
     </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
   </div>
