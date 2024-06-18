@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://res.cloudinary.com/duwahxygm/image/upload/v1717402904/logo-yum-yum_cy2lq2.png" alt="Logo Yum" width="420" height="182">
+  <img src="https://i.imgur.com/Uk8QCAb.png " alt="Logo Yum" width="420" height="182">
 </p>
 
 
@@ -61,7 +61,7 @@ calidad y seguridad de las transacciones._
 
 ### 👉🏻 Developers
 
-| <img src="https://media.licdn.com/dms/image/D4E03AQGkfkdjTo337A/profile-displayphoto-shrink_200_200/0/1705889251357?e=1723075200&v=beta&t=BA1TLdkw6O-0XQcGFkIwsB0f2yJv9RezZSe4fbV5o7U" width=90> | <img src="https://media.licdn.com/dms/image/D4D35AQFhmAtHBEqkwQ/profile-framedphoto-shrink_200_200/0/1645732758203?e=1718326800&v=beta&t=Ln-nFNf7sLDD2WJOTSmvj2LRAie-EahUrrHM9xamO8M" width=90> | <img src="" width=90> |
+| <img src="https://media.licdn.com/dms/image/D4E03AQGkfkdjTo337A/profile-displayphoto-shrink_200_200/0/1705889251357?e=1723075200&v=beta&t=BA1TLdkw6O-0XQcGFkIwsB0f2yJv9RezZSe4fbV5o7U" width=90> | <img src="https://media.licdn.com/dms/image/D4D35AQFhmAtHBEqkwQ/profile-framedphoto-shrink_200_200/0/1645732758203?e=1718938800&v=beta&t=DQZITQQTEcwDFXR6BSwXDb8cdwZQYVaNdNZuEGd3N0E" width=90> | <img src="" width=90> |
 |:-:|:-:|:-:|
 | **Aroon Miranda** | **Esteban Hirzfeld** | **-------** |
 | <a href="https://github.com/Vikernes27666"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href="https://github.com/estebanhirzfeld"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> |
@@ -81,6 +81,8 @@ calidad y seguridad de las transacciones._
 - Creación de rutas enlazadas de la página usando React Router.
 - Uso de Swiper JS para carruseles.
 - Uso de la API de Google Oauth como alternativa de inicio de sesión.
+- Desarrollo del redme del proyecto
+  
 
 
 ### 👉🏻 Desarrollado con 🛠️
@@ -100,14 +102,14 @@ calidad y seguridad de las transacciones._
 ## ✔ UI/UX
 
 ### 👉🏻 Task List ✅
-
 - Definición de MVP y User Stories.
-- Benchmarking de competencia.
+- Benchmarking: Análisis de competencia.
 - Encuesta para recopilar insights.
 - Card sorting y arquitectura de información.
-- Desarrollo de wireframes en baja y alta.
-- UI Kit y sistema de diseño.
-- Prototipo interactivo.
+- Desarrollo de Branding inicial.
+- Desarrollo de wireframes en baja/media y alta.
+- Sistema de diseño.
+- Prototipo interactivo para web.
 
 
 ### 👉🏻 Diseñado con: 🛠️
@@ -121,7 +123,7 @@ calidad y seguridad de las transacciones._
 |<a href="https://www.linkedin.com/in/yaninalucero/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
 
 
-### <a href=""><img height="18px" src="https://img.icons8.com/color/344/figma--v1.png"/> TRABAJO UX/UI</a>
+### <a href="https://www.figma.com/design/UXkpJfnbQvSZPZnoUmiMyE/No-Country---YUM-YUM-JAPAN?node-id=92-2&t=TXVgbMkfTXhoWySU-1"><img height="18px" src="https://img.icons8.com/color/344/figma--v1.png"/> TRABAJO UX/UI</a>
 
 <hr/>
 
@@ -142,12 +144,14 @@ calidad y seguridad de las transacciones._
 
 ![Trello](https://img.shields.io/badge/trello-%23323330.svg?style=for-the-badge&logo=trello&logoColor=%23F7DF1E) 
 
-| <img src="https://media.licdn.com/dms/image/D5603AQHHaGtk99jLDg/profile-displayphoto-shrink_400_400/0/1715359339512?e=1723075200&v=beta&t=0fikBD7tF2YofAH47DAExj9-IhWnnycgtavMnOxgYVE" width=90> | <img src="https://media.licdn.com/dms/image/D4D35AQGcqsX7NdgDrw/profile-framedphoto-shrink_800_800/0/1717415588448?e=1718316000&v=beta&t=it9rYuV2xZo7M2x7Yt3-OPUm6Zarr3HTM3ayCx_YPGc" width=90> |
+| <img src="https://media.licdn.com/dms/image/D5603AQHHaGtk99jLDg/profile-displayphoto-shrink_400_400/0/1715359339512?e=1723075200&v=beta&t=0fikBD7tF2YofAH47DAExj9-IhWnnycgtavMnOxgYVE" width=90> | <img src="https://media.licdn.com/dms/image/D4D35AQGcqsX7NdgDrw/profile-framedphoto-shrink_200_200/0/1717415588448?e=1718938800&v=beta&t=kt_05DIYsSPsG4_OrDNJui31iO0Lv7D4J0XQLFHgIOc" width=90> |
 |:-:|:-:|
 | **Leandro Hernández** | **Cristian Ibarra** | 
 | <a href="https://github.com/leandro130795"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> |
 | <a href="http://www.linkedin.com/in/josé-leandro-hernández-góngora-860b371ba"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://www.linkedin.com/in/cristian-ibarra-a433842a4/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href=""><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
 
+### <a href="https://docs.google.com/document/d/1HN20bL8TQc_44CyEFOXQNtqyNwD-nV3piTLecmKRxg4/edit?usp=sharing"><img height="18px" src="https://img.icons8.com/color/48/microsoft-word-2019--v2.png"/> TRABAJO QA - 1</a>
+### <a href="https://docs.google.com/spreadsheets/d/1P06CVgk9jQR9RvIsKsCDcR7GDd7JAf86ZM3LbNAkNUg/edit?gid=1695711882#gid=1695711882"><img height="18px" src="https://img.icons8.com/fluency/48/microsoft-excel-2019.png"/> TRABAJO QA - 2</a>
 <hr/>
 
 ## Cómo ejecutar el proyecto

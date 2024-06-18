@@ -1,4 +1,4 @@
-import LogoYum from '../../assets/LogoYum.png'
+import LogoYum from '../../assets/Footer-Logo.png'
 import Icon from '../redesociales'
 
 import facebookIcon from '../icon/facebook.svg'

@@ -5,6 +5,7 @@ import {
   XIcon
 } from "@heroicons/react/outline";
 import { Link } from 'react-router-dom';
+import Icon from '../../assets/Navbar-Logo.png'
 
 
 
@@ -19,50 +20,32 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
           <div>
             <a href="#" className="flex">
-              <span className="sr-only">Workflow</span>
+
               <Link to="/#">
               <img
                 className="h-10 w-auto sm:h-12"
-                src="https://res.cloudinary.com/duwahxygm/image/upload/v1717236586/logo-yum_hrjapn.png"
+                src={Icon}
                 alt="logo"
               />
               </Link>
             </a>
           </div>
 
-          <div className="-mr-2 -my-2 md:hidden">
-          <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100border border-red-500 hover:border-red-500 focus:border-red-500">
-              <span className="sr-only">Open menu</span>
-              <MenuIcon className="h-6 w-6" aria-hidden="true" />
-            </Popover.Button>
-          </div>
-
           <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
-  <div className="relative w-[70%]">
-    <input
-      type="search"
-      className="block w-full px-4 py-2 border-2 border-[#43949D] rounded-[50px] placeholder:text-[#43949D]"
-      placeholder="¿Qué estás buscando?"
-      aria-label="Buscar"
-    />
-    <button type="submit" className="absolute right-4 top-3">
-      <svg
-        className="h-[20px] w-[20px] text-[#43949D] place-content-center"
-        xmlns="http://www.w3.org/2000/svg"
-        width="10"
-        height="10"
-        viewBox="0 0 18 18"
-        fill="none"
-      >
-        <path
-          d="M16.6 18L10.3 11.7C9.79997 12.1 9.22497 12.4167 8.57497 12.65C7.92497 12.8833 7.2333 13 6.49997 13C4.6833 13 3.1458 12.3708 1.88747 11.1125C0.629136 9.85417 -3.05176e-05 8.31667 -3.05176e-05 6.5C-3.05176e-05 4.68333 0.629136 3.14583 1.88747 1.8875C3.1458 0.629167 4.6833 0 6.49997 0C8.31664 0 9.85414 0.629167 11.1125 1.8875C12.3708 3.14583 13 4.68333 13 6.5C13 7.23333 12.8833 7.925 12.65 8.575C12.4166 9.225 12.1 9.8 11.7 10.3L18 16.6L16.6 18ZM6.49997 11C7.74997 11 8.81247 10.5625 9.68747 9.6875C10.5625 8.8125 11 7.75 11 6.5C11 5.25 10.5625 4.1875 9.68747 3.3125C8.81247 2.4375 7.74997 2 6.49997 2C5.24997 2 4.18747 2.4375 3.31247 3.3125C2.43747 4.1875 1.99997 5.25 1.99997 6.5C1.99997 7.75 2.43747 8.8125 3.31247 9.6875C4.18747 10.5625 5.24997 11 6.49997 11Z"
-          fill="#43949D"
-        />
-      </svg>
-    </button>
-  </div>
-
-            <div className="flex items-center font-semibold	">
+          <div className="relative w-[70%]">
+  <input
+    type="search"
+    className="block w-full pl-4 pr-10 py-2 border-2 border-[#43949D] rounded-[50px] placeholder:text-[#43949D]"
+    placeholder="¿Qué estás buscando?"
+    aria-label="Buscar"
+  />
+    <button type="button" className="absolute right-4 top-1/2 transform -translate-y-1/2 text-[#43949D]">
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1111 3a7.5 7.5 0 015.65 13.65z"></path>
+    </svg>
+  </button>
+</div>
+<div className="flex items-center font-semibold	">
               <Link to="/Login" className="text-[#DB1A40] font-semibold">
                 Iniciar sesión
               </Link>
@@ -115,11 +98,11 @@ export function Navbar() {
     </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
     <Link to="/Bebidas" className="text-[#ffffff] font-bold p-2">
-      BEBIDAS
+      BEBIDAS  
     </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
-    <Link to="CombosBox" className="text-[#ffffff] font-bold p-2">
-      COMBOS BOX
+    <Link to="/CombosBox" className="text-[#ffffff] font-bold p-2">
+      COMBOS BOX 
     </Link>
     <span className="mx-3 text-[#ffffff]">|</span>
   </div>
